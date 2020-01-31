@@ -1,9 +1,9 @@
 
-**NAME:** RobotCards
+**NAME:** RobotCards<br>
 **DESCRIPTION:** This simple project was created for learning React,
-				 using combination of components, states, and others.
-**DATE:** 31/01/20
-**AUTHOR:**  *Hagai Vinik*
+				 using combination of components, states, and others.<br>
+**DATE:** 31/01/20<br>
+**AUTHOR:**  *Hagai Vinik*<br><br>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
