@@ -17,11 +17,10 @@ class App extends React.Component
 	}
 
 	componentDidMount(){
-		fetch('https://jsonplaceholder.typicode.com/users')
+		fetch('https://jsonplaceholder.typicode.com/users', {headers: {'Access-Control-Allow-Origin': '*'}})
 			.then(response=> response.json())
 				.then(users=> [this.setState({robots: users})]);
-	}
-	onSearchChange = (event) =>
+	}	onSearchChange = (event) =>
 	{
 		this.setState({searchField:event.target.value});		
 	}
