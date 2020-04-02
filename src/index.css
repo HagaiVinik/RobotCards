@@ -1,35 +1,72 @@
-
-.card{
-	background-color: green;
-	direction: inherit; 
-	padding: 3px;
-	margin: 10px;
-	display: inline-block;
-	grid-row:inherit; 
-	transition: all .2s ease-in-out;
-}
-.card::hover { 
-	transform: scale(1.1); 
-}
-
-
-/*className = 'bg-light-green dib br3 pa3 ma2 grow shadow-5 bw2'*/
-
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(to left, rgba(7, 27, 82, 1) 0%, rgba(0, 128, 128, 1) 100%);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-p{
-
+.card {
+    background-color: green;
+    direction: inherit;
+    padding: 3px;
+    margin: 10px;
+    display: inline-block;
+    grid-row: inherit;
+    transition: all .2s ease-in-out;
 }
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.header {
+    /* Set little transparent for the effect */
+    background: linear-gradient(to left, rgba(7, 27, 82, 0.71) 0%, rgba(0, 128, 128, 0.71) 100%);
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 20px;
+
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 160px;
+}
+
+.content {
+    padding-top: 160px;
+}
+
+.header > h1 {
+    text-align: center;
+}
+
+.search-box-wrapper {
+    display: flex;
+    vertical-align: middle;
+}
+
+.search-box {
+    width: 202px;
+    height: 40px;
+
+    /* Set at center */
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-left: 13px;
+    border-radius: 25px;
+    line-height: 40px;
+    box-sizing: content-box;
+    border-color: transparent;
+}
+
+
