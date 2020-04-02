@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3928e27a0a8d7507607014764750d3c",
+    "revision": "00b70d82ba20340b018a423c6199740d",
     "url": "/RobotCards/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RobotCards/static/css/2.e40df323.chunk.css"
   },
   {
-    "revision": "597acf5d51b269467587",
+    "revision": "3cedf860c01a05c47422",
     "url": "/RobotCards/static/css/main.873836e1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RobotCards/static/js/2.80c069d3.chunk.js"
   },
   {
-    "revision": "597acf5d51b269467587",
-    "url": "/RobotCards/static/js/main.ec66c5f1.chunk.js"
+    "revision": "3cedf860c01a05c47422",
+    "url": "/RobotCards/static/js/main.89dfc2c1.chunk.js"
   },
   {
     "revision": "57064a72ee9e30e2045e",
